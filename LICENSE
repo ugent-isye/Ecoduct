@@ -1,0 +1,91 @@
+****************************
+e-CODUCT web appplication
+****************************
+
+This application uses a two-stage Mixed Integer Linear Program (MILP) to find the most profitable 24-hour plan for powering an electrically-powered energy-intensive reactor, as part of a plant that contains a solar PV array, wind turbines, and a battery energy storage system (BESS). Electricity can also be bought and sold on the day-ahead and intraday markets.
+
+This model takes into account that the optimal production plan relies on modelling the renewable energy generation and electricity prices for the next day. As these values are not known with certainty, this model creates multiple possible scenarios based on an input forecast, and calculates the production plan that will, on average, generate the most profit over all scenarios.
+
+
+Contact name	Robert Hanusa ( robert.hanusa@UGent.be )
+Authors		Robert Hanusa ( robert.hanusa@UGent.be ), Stijn De Vuyst ( stijn.devuyst@UGent.be ), Birger Raa ( birger.raa@UGent.be )
+ZAP name	Birger Raa ( birger.raa@UGent.be )
+Website		( https://reveal.ugent.be/dash2/ )
+
+
+-------------------------------------------------------------------------------
+
+1. ABSTRACT
+-----------
+
+A 2-stage stochastic MILP model was developed for the e-CODUCT project ( https://e-coduct.eu/ ) and used to make a web application that can be easily utilized by industrial users. The app was developed based on the principles that industrial adoption is dependent on the app's ease-of-use, interpretability, and flexibility. The resulting product is a clear, configurable application that outputs data in easy to use and easy to understand formats.
+
+
+2. SOFTWARE DEPENDENCIES
+------------------------
+
+This application was developed using Google Chrome.
+
+
+3. THE FILES YOU SHOULD GET
+---------------------------
+
+NA
+
+
+4. GETTING STARTED
+------------------
+
+Instructions for using the app can be found at ( reveal.ugent.be/assets/Instructions.pdf ).
+
+
+5. KNOWN LIMITATIONS/BUGS
+-------------------------
+
+NA
+
+
+6. CHANGE LOG
+-------------
+
+06 Nov 2025: Initial release.
+
+
+7. LICENSE
+----------
+
+    Copyright (C) 2025 Robert Hanusa
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    A copy of the GNU General Public License is available at 
+    <https://www.gnu.org/licenses/>.
+
+
+8. CONTACTING THE AUTHOR(s)
+---------------------------
+
+We would very much appreciate hearing from you if you use e-coduct web app and find problems,
+or if you can think of ways it could be improved - and even (or is that
+'especially'?) if you just think it's great. Even if the facility you would
+like to see appears to be of interest only to you, tell us about it - you'd be
+surprised how many ideas in that class have a much wider appeal.
+
+See above for further contact information.
+
+We read and consider all mail we receive, even though we may not have time
+to reply
+
+
+9. ACKNOWLEDGEMENTS
+-------------------
+
+The e-CODUCT project is funded under Horizon Europe Grant Agreement 101058100.
